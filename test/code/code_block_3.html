@@ -1,0 +1,6 @@
+<!-- register.component.html -->
+<form (submit)="onRegister(form)" #form="ngForm">
+  <input type="text" name="username" ngModel>
+  <input type="password" name="password" ngModel>
+  <button type="submit">Register</button>
+</form>
